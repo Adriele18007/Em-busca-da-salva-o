@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
+    <title>Em busca da salvação</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passoINICIO.png" alt="">
+            <p>O ano é 3024, o planeta Terra está em um completo caos e o apocalipse é iminente, pessoas morreram mas
+                elas subitamente voltam a vida e você, precisa achar suprimentos!</p>
+            <button class="btn-proximo" data-proximo="1">Procurar nas casas de um bairro próximo a você</button>
+            <button class="btn-proximo" data-proximo="2">Procurar nos mercadinhos á 5 quadras de você</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/cenario-passoESTRADADASCASAS.jpg">
+            <p>Você decide procurar nas casas próximo a você, quando chega lá percebe que muitas delas estão destruídas,
+                e resta apenas duas casas, uma que está em perfeito estado e outra toda suja e abandonada</p>
+            <button class="btn-proximo" data-proximo="3">Entrar na casa em perfeito estado</button>
+            <button class="btn-proximo" data-proximo="4">Entrar na casa suja e abandonada</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/cenario-passoSUJEITO.png" alt="o sujeito">
+            <p>No caminho para os mercadinhos você se depara com um
+                sujeito encapuzado, e não consegue identificar se é um morto-vivo ou não, mas então percebe que logo a
+                frente há uma horda de mortos-vivos vindo na direçao
+                do sujeito</p>
+            <button class="btn-proximo" data-proximo="5">Correr para longe e ir por um caminho seguro</button>
+            <button class="btn-proximo" data-proximo="6">Avisar o sujeito do perigo</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="img/cenario-passoCASAARRUMADA2.jpg">
+            <p>Quando você entra percebe que a casa está estranhamente limpa e organizada, ao chegar na cozinha há
+                muitos alimentos porém todos estragados. Quando decide ir embora vê um galpão no quintal do fundo</p>
+            <button class="btn-proximo" data-proximo="7">Ir até o galpão</button>
+            <button class="btn-proximo" data-proximo="8">Ir embora</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passoFORADACASASUJA2.jpg">
+            <p>Ao se aproximar da casa com cautela e observando sempre os arredores
+                percebe que a porta está trancada, então tenta ver pelas janelas. Ao olhar pela janela vê que tem um
+                pedaço de madeira bloqueando a porta.</p>
+            <button class="btn-proximo" data-proximo="9">Tentar tirar o pedaço de madeira da porta</button>
+            <button class="btn-proximo" data-proximo="10">Tentar achar outra entrada</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="img/cenario-passoESTRADADASLOJAS.png" alt="mercadinho">
+            <p>Você corre para longe deixando o sujeito para trás.
+                Andando pelas ruas por um tempo você finalmente encontra um mercadinho, mas as janelas estão quebradas e
+                o ambiente lá dentro está todo bagunçado e cheio de sangue.
+            </p>
+            <button class="btn-proximo" data-proximo="11">Entrar mesmo assim</button>
+            <button class="btn-proximo" data-proximo="12">Achar outro mercadinho</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="img/cenario-passoSUJEITO.png">
+            <p>Após decidir ajudar o sujeito você se esconde atrás de um carro próximo a ele e tenta chamar sua atenção,
+                e ao fazer isso o sujeito te olha mas então ao prestar atenção em sua face você percebe que o sujeito é
+                um morto-vivo que agora está correndo em sua direção.
+            </p>
+            <button class="btn-proximo" data-proximo="13">Correr!</button>
+            <button class="btn-proximo" data-proximo="14">Atacar!</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="img/cenario-passoMORTE.png">
+            <p>Ao chegar no galpão você sente um cheiro forte de algo podre e decide entrar para ver o que era, quando
+                abre vê escadas indo para baixo e desce, mas foi a pior decisão que você já fez, pois a família e mais
+                um monte de outros mortos-vivos estavam lá e agora você está encurralado e sem saída. VOCÊ MORREU.
+            </p>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="img/cenario-passoESTRADADASCASAS.jpg">
+            <p>Decidido a ir embora sem sucesso na procura de suprimentos você vê um carro passando na rua, aquilo te
+                deixa intrigado e surpreso pois não tinha qualquer esperença de que havia mais sobreviventes.
+            </p>
+            <button class="btn-proximo" data-proximo="15">Chamar a atenção do carro</button>
+            <button class="btn-proximo" data-proximo="16">Continuar sua procura sozinho</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="img/cenario-passoCASASUJA.jpg">
+            <p>Pensando em formas de como tirar a madeira, você avista uma pedra no chão e decide quebrar a
+                janela para tentar empurrar a madeira, depois de quebrar a janela e de ter conseguido tirar a madeira,
+                você entra na casa, mas ao entrar na casa e ir direto para a cozinha você é barrado por um estranho
+                apontando uma faca para seu pescoço pedindo para ir embora.
+            </p>
+            <button class="btn-proximo" data-proximo="17">Atacar!</button>
+            <button class="btn-proximo" data-proximo="18">Manter a calma</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="img/cenario-passoFORADACASASUJA2.jpg">
+            <p>Analisando a casa pelos arredores com o objetivo de achar uma entrada alternativa percebeu que não tinha
+                uma outra entrada, apenas aquela que estava barrada com o pedaço de madeira.
+            </p>
+            <button class="btn-proximo" data-proximo="19">Desitir</button>
+            <button class="btn-proximo" data-proximo="20">Procurar nas outras casas</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passoLOJA.jpg">
+            <p>Ao entrar no mercadinho com cautela, analisa se há alguma comida restante nas prateleiras, mas
+                não encontra nada. No momento em que estava saindo ouviu um barulho nos fundos de algo caindo.
+            </p>
+            <button class="btn-proximo" data-proximo="21">Ver o que tem nos fundos</button>
+            <button class="btn-proximo" data-proximo="22">Ir embora</button>
+        </div>
+        <div class="passo" id="passo-12">
+            <img src="img/cenario-passoESTRADADASLOJAS.png">
+            <p>Com medo do que pode ter lá dentro você deicide procurar outro mercadinho. Após ter andado por batsante
+                tempo o dia foi se passava até ficar de noite, você está com muita fome e não sabe se conseguira
+                aguentar mais um dia sem comida.
+            </p>
+            <button class="btn-proximo" data-proximo="23">Desitir</button>
+            <button class="btn-proximo" data-proximo="24">Andar mais</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <img src="img/cenario-passoMORTE.png">
+            <p>Desnorteado com situação você tenta correr mais perde o equilíbrio e cai no chão, quando tenta se
+                levantar o sujeito já chegou até você e come-o vivo. VOCÊ MORREU.
+            </p>
+        </div>
+        <div class="passo" id="passo-14">
+            <img src="img/cenario-passoMORTE.png">
+            <p>Confiante em atacar o sujeito você pega o bastão na sua bolsa e o ataca, mas a adrenalina e a vontade de
+                viver fizeram você se cegar e não perceber que os outros mortos-vivos estavam chegando, que logo depois
+                te encurralaram e te destroçaram. VOCÊ MORREU.
+            </p>
+        </div>
+        <div class="passo" id="passo-15">
+            <img src="img/cenario-passoMORTE.png">
+            <p>Você grita tentando chamar a atenção do carro mas ele continuou indo embora, porém de tanto gritar e
+                fazer barulho os mortos-vivos acabam saindo das casas e correndo em sua direção, você até tenta se
+                defender mas nada adianta. VOCÊ MORREU.
+            </p>
+        </div>
+        <div class="passo" id="passo-16">
+            <img src="img/cenario-passoCAMINHÃO.jpg">
+            <p>Demasiado preocupado com o que pode acontecer se tentar chamar a atenção do carro você decide continar
+                sozinho. Ainda na procura de suprimentos você encontra um caminhão de supermercado na estrada, mas está
+                trancado com cadeado.
+            </p>
+            <button class="btn-proximo" data-proximo="25">Procurar a chave</button>
+            <button class="btn-proximo" data-proximo="26">Desistir e andar mais</button>
+        </div>
+        <div class="passo" id="passo-17">
+            <img src="img/cenario-passoMORTE.png">
+            <p>Sem pensar nas consequências você o ataca, mas o sujeito é mais rápido e acaba cortando seu pescoço. VOCÊ
+                MORREU.
+            </p>
+        </div>
+        <div class="passo" id="passo-18">
+            <img src="img/cenario-passoCASASUJA.jpg">
+            <p>Assustado com a situação você se rende e pede para o sujeito manter a calma e abaixar a faca, ele te
+                empurra, mas ainda apontando a faca para você de longe, o sujeito repete mais um vez para ir embora.
+            </p>
+            <button class="btn-proximo" data-proximo="27">Ir embora</button>
+            <button class="btn-proximo" data-proximo="28">Tentar conversar</button>
+        </div>
+        <div class="passo" id="passo-19">
+            <img src="img/cenario-passoMORTE.png">
+            <p>Cansado de procurar você desiste e caminha frustrado para casa. Dias depois por não ter encontrado comida
+                você acaba morrendo de fome.
+            </p>
+        </div>
+        <div class="passo" id="passo-20">
+            <img src="img/cenario-passoCAMINHÃO.jpg">
+            <p>Quando analisa as outras casas percebe que todas estão infestadas de mortos-vivos e não tem como entrar
+                nelas, então decide andar mais. Um tempo depois você encontra um caminhão de supermercado na estrada,
+                mas está trancado com cadeado.
+            </p>
+            <button class="btn-proximo" data-proximo="29">Procurar a chave</button>
+            <button class="btn-proximo" data-proximo="30">Desistir e andar mais</button>
+        </div>
+        <div class="passo" id="passo-21">
+            <img src="img/cenario-passoLOJA.jpg">
+            <p>Suando frio você se aproxima dos fundos, onde é a parte do armazém, quando
+                está prestes a abrir a porta um rato sai de tras de uma caixa e você se assusta, mas isso não te impede
+                de abrir a porta.
+            </p>
+            <button class="btn-proximo" data-proximo="31">Abrir a porta</button>
+        </div>
+        <div class="passo" id="passo-22">
+            <img src="img/cenario-passoMORTE.png">
+            <p>Sem vontade de arriscar sua vida você decidi ir embora. Após muita procura, não encontra nada e volta
+                para casa sem comida, isso faz você passar fome todos os dias que acaba morrendo de fome.
+            </p>
+        </div>
+        <div class="passo" id="passo-23">
+            <img src="img/cenario-passoMORTE.png">
+            <p>Cansado de procurar você desiste e caminha frustrado para casa. Dias depois por não ter encontrado comida
+                você acaba morrendo de fome.
+            </p>
+        </div>
+        <div class="passo" id="passo-24">
+            <img src="img/cenario-passoCAMINHADA2.webp">
+            <p>Você anda mais um pouco com a esperança de achar comida e visualiza uma loja de conveniência a frente.
+                Essa é sua última oportunidade de achar alguma coisa.
+            </p>
+            <button class="btn-proximo" data-proximo="32">Correr até a loja</button>
+        </div>
+        <div class="passo" id="passo-25">
+            <img src="img/cenario-passoMORTE.png">
+            <p>Olhando aos redores indo em direção da cabine do motorista, para sua sorte a porta da cabine do motorista
+                está aberta e você inicia a sua procura pela chave e a encontra no porta-luvas. Quando estava indo abrir
+                a parte de tras de caminhão você ouvi um estalar lá dentro mas se preocupa muito com isso e abre, no
+                momento em que você abre havia muitos mortos-vivos lá dentro que imediatamente avançam em você. VOCÊ
+                MORREU.
+            </p>
+        </div>
+        <div class="passo" id="passo-26">
+            <img src="img/cenario-passoCAMINHÃO.jpg">
+            <p>Repensando a escolha de abrir o caminhão você decide andar mais um pouco, mais a frente você vê uma placa
+                dizendo que á 200 metros dali havia uma comunidade segura, esperençoso você caminha até lá.
+            </p>
+            <button class="btn-proximo" data-proximo="33">Comunidade segura</button>
+        </div>
+        <div class="passo" id="passo-27">
+            <img src="img/cenario-passoCASASUJA.jpg">
+            <p>Assustado com o que aquele sujeito podia fazer com você, caminha até a saída olhando ainda na direção do
+                sujeito. Quando saiu sua barriga começa a roncar e o dia começa a ficar de noite, você está cansado e
+                com fome sem ânimo para continuar e decide voltar para casa.
+            </p>
+            <button class="btn-proximo" data-proximo="34">Desistir</button>
+        </div>
+        <div class="passo" id="passo-28">
+            <img src="img/cenario-passoCASASUJA.jpg">
+            <p>Você começa a falar com sujeito, dizendo que está com fome e apenas procurando algo para comer. O sujeito
+                ainda na defensiva, te entrega uma sacola com latas em conserva e aguá, e fala mais uma vez para ir
+                embora.
+            </p>
+            <button class="btn-proximo" data-proximo="35">Agredecer e ir embora</button>
+        </div>
+        <div class="passo" id="passo-29">
+            <img src="img/cenario-passoMORTE.png">
+            <p>Olhando aos redores indo em direção da cabine do motorista, para sua sorte a porta da cabine do motorista
+                está aberta e você inicia a sua procura pela chave e a encontra no porta-luvas. Quando estava indo abrir
+                a parte de tras de caminhão você ouvi um estalar lá dentro mas se preocupa muito com isso e abre, no
+                momento em que você abre havia muitos mortos-vivos lá dentro que imediatamente avançam em você. VOCÊ
+                MORREU.
+            </p>
+        </div>
+        <div class="passo" id="passo-30">
+            <img src="img/cenario-passoCAMINHADA2.webp">
+            <p>Repensando a escolha de abrir o caminhão você decide andar mais um pouco, mais a frente você vê uma placa
+                dizendo que á 200 metros dali havia uma comunidade segura, esperençoso você caminha até lá.
+            </p>
+            <button class="btn-proximo" data-proximo="36">Comunidade segura</button>
+        </div>
+        <div class="passo" id="passo-31">
+            <img src="img/cenario-passoSOBREVIVENCIA.webp">
+            <p>PARABÉNS! Você encontrou um estoque cheio de comida e água, você passa o resto do ano muito bem :D
+            </p>
+        </div>
+        <div class="passo" id="passo-32">
+            <img src="img/cenario-passoSOBREVIVENCIA.webp">
+            <p>Desesperado por comida você corre até a loja com a esperença de achar algo, quando chega lá vê que a
+                porta está trancada, mas sem paciência você já a quebra e entra, ao analizar as prateleiras
+                encontra alguns salgadinhos, água e as três últimas lata em conserva. PARABÉNS! Você achou comida e
+                conseguiu passar 3 semanas bem ;D
+            </p>
+        </div>
+        <div class="passo" id="passo-33">
+            <img src="img/cenario-passoCOMUNIDADE2.jpg">
+            <p>PARABÉNS! Você encontrou a comunidade segura! Agora além de ter comida e água, não está mais sozinho :D
+            </p>
+        </div>
+        <div class="passo" id="passo-34">
+            <img src="img/cenario-passoSOBREVIVENCIA.webp">
+            <p>Ao desistir você caminnha cambaleando de fome até sua casa e acaba caindo no chão sem nenhuma esperança
+                de vida, mas a sorte está com você, pois quando caiu avistou uma sacola com algumas latas em conserva e
+                isso te animou muito. PARABÉNS! Você achou comida porém não achou água, mas isso fez passar 7 longos
+                dias :3
+            </p>
+        </div>
+        <div class="passo" id="passo-35">
+            <img src="img/cenario-passoSOBREVIVENCIA.webp">
+            <p>PARABÉNS! Por manter a calma e respeitar o espaço do sujeito você conseguiu água e comida, isso te fez
+                passar 1 mês muito bem ;D
+            </p>
+        </div>
+        <div class="passo" id="passo-36">
+            <img src="img/cenario-passoCOMUNIDADE2.jpg">
+            <p>PARABÉNS! Você encontrou a comunidade segura! Agora além de ter comida e água, não está mais sozinho :D
+            </p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
